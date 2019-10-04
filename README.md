@@ -34,7 +34,21 @@ Consists of lessons and tutorial projects that teaches the following parts in de
 
 ## Project Submissions
 
-### Single Screen App
+### Single Screen App - [Invitation](https://github.com/kaushiknsanji/Invitation_Udacity_Project)
+
+<image align="right" src="https://github.com/kaushiknsanji/Invitation_Udacity_Project/blob/release_v1.0/app/src/main/ic_launcher-web.png" width="30%"/>
+
+![GitHub](https://img.shields.io/github/license/kaushiknsanji/Invitation_Udacity_Project)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/kaushiknsanji/Invitation_Udacity_Project)  ![GitHub repo size](https://img.shields.io/github/repo-size/kaushiknsanji/Invitation_Udacity_Project)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/kaushiknsanji/Invitation_Udacity_Project)](https://github.com/kaushiknsanji/Invitation_Udacity_Project/releases)  ![GitHub All Releases](https://img.shields.io/github/downloads/kaushiknsanji/Invitation_Udacity_Project/total)  ![Minimum API level](https://img.shields.io/badge/API-15+-yellow)
+
+**Invitation** is a Single Screen App that displays details of a particular location of interest which includes "Contact information", " Location Address", "Description of the Business" and "Hours of operation".
+
+#### Topics learnt/explored
+* Learnt how to transform designs into layouts using `RelativeLayout` and `TableLayout` ViewGroups.
+* Explored how to use `ScrollView`, `TextView`, `ImageView` and Divider using `View`.
+
+#### Sample Screenshots
+<img src="https://user-images.githubusercontent.com/26028981/65308112-fdc34e00-dba6-11e9-9756-f7aca785076c.png" width="40%"/>  <img src="https://user-images.githubusercontent.com/26028981/65308124-02880200-dba7-11e9-8899-45b116a1f0b0.png" width="40%"/>
 
 ### Score Keeper App
 
