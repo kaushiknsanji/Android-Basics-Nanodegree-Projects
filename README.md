@@ -7,12 +7,12 @@
 Consists of lessons and tutorial projects that teaches the following parts in detail -
 * **User Interface**
 	* Explains how to transform any hand-drawn app designs into layouts using the XML markup language, with Views and ViewGroups, which are the building blocks of an Android app's user interface to display images and text.
-	* Project-1: Single Screen App
+	* Project-1: [Single Screen App](#1-single-screen-app---invitation)
   
 * **User Input**
 	* Elaborates on the power of Java through the process of building a coffee-ordering app, using variables to add interactivity to the app, while educating the basics of object-oriented programming.
-	* Project-2: Score Keeper App
-	* Project-3: Quiz App
+	* Project-2: [Score Keeper App](#2-score-keeper-app---tennis-scoring)
+	* Project-3: [Quiz App](#3-quiz-app---quiz-of-aves)
   
 * **Multi-Screen Apps**
 	* Explains how to show multiple screens in a Miwok language app, incorporating audio and images to the app, while educating how Android handles touch events. Also, instructs on how to make visual changes in order to polish a fully functional app.
@@ -44,8 +44,8 @@ Consists of lessons and tutorial projects that teaches the following parts in de
 **Invitation** is a Single Screen App that displays details of a particular location of interest which includes "Contact information", " Location Address", "Description of the Business" and "Hours of operation".
 
 #### Topics learnt/explored
-* Learnt how to transform designs into layouts using `RelativeLayout` and `TableLayout` ViewGroups.
-* Explored how to use `ScrollView`, `TextView`, `ImageView` and Divider using `View`.
+* Transforming designs into layouts using `RelativeLayout` and `TableLayout` ViewGroups.
+* Usage of `ScrollView`, `TextView`, `ImageView` and designing Dividers using `View`.
 
 #### Sample Screenshots
 <img src="https://user-images.githubusercontent.com/26028981/65308112-fdc34e00-dba6-11e9-9756-f7aca785076c.png" width="40%"/>  <img src="https://user-images.githubusercontent.com/26028981/65308124-02880200-dba7-11e9-8899-45b116a1f0b0.png" width="40%"/> 
@@ -63,10 +63,10 @@ Consists of lessons and tutorial projects that teaches the following parts in de
 **Tennis Scoring** is the Score Keeper App for Tennis, based on the rules followed in the Grand Slams for Men's and Women's Tennis. It has a Single Screen that displays the Scoreboards for the Tennis Match, as well as tracks and manages the scores of each Player during the Play.
 
 #### Topics learnt/explored
-* Explored how to use `LinearLayout` with weights.
-* Learnt how to use Buttons with Click listener.
-* Learnt the use of App resource values for colors, dimensions, strings and styles.
-* Explored how to save the state of Text values shown in `TextView` and `Button` post configuration change.
+* Using `LinearLayout` with weights.
+* Registering Buttons with Click listener.
+* Usage of App resource values for colors, dimensions, strings and styles.
+* Saving the state of Text values shown in `TextView` and `Button`, post configuration change.
 
 #### Sample Screenshots
 |Start of the Match|Scoring in a Set|Scoring in a Tie-Breaker|Match Finish|
@@ -76,7 +76,36 @@ Consists of lessons and tutorial projects that teaches the following parts in de
 #### Review from the Reviewer (Udacity)
 ![Review_Score_Keeper_App](https://user-images.githubusercontent.com/26028981/65620779-15a03500-dfe0-11e9-87c8-83821c872914.PNG)
 
-### 3. Quiz App
+### 3. Quiz App - [Quiz of Aves](https://github.com/kaushiknsanji/Bird_Quiz_App)
+
+<image align="right" src="https://github.com/kaushiknsanji/Bird_Quiz_App/blob/release_v1.0/app/src/main/ic_launcher-web.png" width="25%"/>
+
+![GitHub](https://img.shields.io/github/license/kaushiknsanji/Bird_Quiz_App)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/kaushiknsanji/Bird_Quiz_App)  ![GitHub repo size](https://img.shields.io/github/repo-size/kaushiknsanji/Bird_Quiz_App)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/kaushiknsanji/Bird_Quiz_App)](https://github.com/kaushiknsanji/Bird_Quiz_App/releases)  ![GitHub All Releases](https://img.shields.io/github/downloads/kaushiknsanji/Bird_Quiz_App/total)  ![Minimum API level](https://img.shields.io/badge/API-16+-yellow)
+
+**Quiz of Aves** is a Quiz App on **Birds**, that has a total of **50** questions in variety of formats such as "free text response", checkboxes (Multi-choice) and radio buttons (Single-choice). It presents the user with a randomly selected set of questions (read from the String resources) for the number of questions the user wishes to take the quiz, with options for "Multi-choice" and "Single-choice" questions displayed in a random order. For each question, user is presented with an optional Hint after an incorrect attempt, that shows an Image of the Bird(s) in question as a hint when requested by the user to reveal the hint, which in turn means that the user gets a second chance to answer each question. Entire quiz is timed, and the timer value is set accordingly to the number of questions selected by the user, by allocating 45 seconds for each question. The timer runs even when the app goes into background. At the end of the quiz, a dialog will show up for displaying the final score to the user.
+
+#### Topics learnt/explored
+* `android.os.AsyncTask` for downloading the images for each of the questions. Headless [`Fragment`](https://github.com/kaushiknsanji/Bird_Quiz_App/app/src/main/java/com/example/kaushiknsanji/birdquiz/ImageDownloaderTaskFragment.java) has been used for managing this Custom `AsyncTask`.
+* [`android.util.LruCache`](https://github.com/kaushiknsanji/Bird_Quiz_App/app/src/main/java/com/example/kaushiknsanji/birdquiz/BitmapImageCache.java) for caching the Bitmaps downloaded.
+* `android.os.CountDownTimer` for the Quiz Timer. Headless [`Fragment`](https://github.com/kaushiknsanji/Bird_Quiz_App/app/src/main/java/com/example/kaushiknsanji/birdquiz/CountDownLatchFragment.java) has been used for managing the `CountDownTimer`, designed as a latch that adds functionality such as _Pause_ and _Resume_.
+* [`DialogFragment`](https://github.com/kaushiknsanji/Bird_Quiz_App/app/src/main/java/com/example/kaushiknsanji/birdquiz/QuestionNumberPickerDialogFragment.java) to display the Number Picker Dialog for the user to select/enter the number of questions to attempt.
+* [`DialogFragment`](https://github.com/kaushiknsanji/Bird_Quiz_App/app/src/main/java/com/example/kaushiknsanji/birdquiz/ProgressDialogFragment.java) for displaying the Progress of Image Download, with a custom progress bar layout.
+* [`DialogFragment`](https://github.com/kaushiknsanji/Bird_Quiz_App/app/src/main/java/com/example/kaushiknsanji/birdquiz/FinalScoreDialogFragment.java) for displaying the Final score at the end of the quiz or when the quiz timer elapses.
+* Intents for moving from one activity to the other.
+* [Id resource](https://github.com/kaushiknsanji/Bird_Quiz_App/app/src/main/res/values/ids.xml) for the components generated programmatically.
+* Nine patch images used as a background image for the question and option fields.
+* [Level List Drawable](https://github.com/kaushiknsanji/Bird_Quiz_App/app/src/main/res/drawable/option_level_list.xml) for decorating the options.
+* [State List Drawable](https://github.com/kaushiknsanji/Bird_Quiz_App/app/src/main/res/drawable/button_state_selector.xml) of shape drawables with gradient for the Submit/Hint buttons.
+* [String array](https://github.com/kaushiknsanji/Bird_Quiz_App/app/src/main/res/values/quiz_strings.xml) resources for storing the questions, their options and keys.
+
+#### Sample Screenshots
+|Welcome Screen|Text input Question|Single-choice Question|Multi-choice Question|Score on Completion|
+|---|---|---|---|---|
+|![welcome_screen](https://user-images.githubusercontent.com/26028981/27983052-4a1ff1fe-63d1-11e7-913b-d06c095d5001.png)|![textual_question](https://user-images.githubusercontent.com/26028981/27983103-691345a6-63d2-11e7-9ff6-0895d233b813.png)|![mcq_selected_answer](https://user-images.githubusercontent.com/26028981/27983127-dfeea940-63d2-11e7-93d3-478374710a25.png)|![mcq_checkbox_selected_answers](https://user-images.githubusercontent.com/26028981/27983163-82ae1b0c-63d3-11e7-9b3e-040d99f3b65d.png)|![score_on_completion](https://user-images.githubusercontent.com/26028981/27983169-a14aace2-63d3-11e7-9539-6c179ccccb3f.png)|
+
+#### Review from the Reviewer (Udacity)
+![Review_Quiz_App](https://user-images.githubusercontent.com/26028981/65774028-16a9a180-e15b-11e9-8c83-449bf942946b.PNG)
 
 ### 4. Musical Structure
 
