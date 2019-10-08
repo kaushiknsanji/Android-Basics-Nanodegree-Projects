@@ -17,7 +17,7 @@ Consists of lessons and tutorial projects that teaches the following parts in de
 * **Multi-Screen Apps**
 	* Explains how to show multiple screens in a Miwok language app, incorporating audio and images to the app, while educating how Android handles touch events. Also, instructs on how to make visual changes in order to polish a fully functional app.
 	* Project-4: [Musical Structure](#4-musical-structure---rhythm)
-	* Project-5: Report Card class
+	* Project-5: [Report Card class](#5-report-card-class---report-card-app)
 	* Project-6: Tour Guide App
   
 * **Networking**
@@ -100,9 +100,13 @@ Consists of lessons and tutorial projects that teaches the following parts in de
 * [String array](https://github.com/kaushiknsanji/Bird_Quiz_App/app/src/main/res/values/quiz_strings.xml) resources for storing the questions, their options and keys.
 
 #### Sample Screenshots
-|Welcome Screen|Text input Question|Single-choice Question|Multi-choice Question|Score on Completion|
-|---|---|---|---|---|
-|![welcome_screen](https://user-images.githubusercontent.com/26028981/27983052-4a1ff1fe-63d1-11e7-913b-d06c095d5001.png)|![textual_question](https://user-images.githubusercontent.com/26028981/27983103-691345a6-63d2-11e7-9ff6-0895d233b813.png)|![mcq_selected_answer](https://user-images.githubusercontent.com/26028981/27983127-dfeea940-63d2-11e7-93d3-478374710a25.png)|![mcq_checkbox_selected_answers](https://user-images.githubusercontent.com/26028981/27983163-82ae1b0c-63d3-11e7-9b3e-040d99f3b65d.png)|![score_on_completion](https://user-images.githubusercontent.com/26028981/27983169-a14aace2-63d3-11e7-9539-6c179ccccb3f.png)|
+|Welcome Screen|Text input Question|Single-choice Question|Single-choice Question - Correct Answer
+|---|---|---|---|
+|![welcome_screen](https://user-images.githubusercontent.com/26028981/27983052-4a1ff1fe-63d1-11e7-913b-d06c095d5001.png)|![textual_question](https://user-images.githubusercontent.com/26028981/27983103-691345a6-63d2-11e7-9ff6-0895d233b813.png)|![mcq_selected_answer](https://user-images.githubusercontent.com/26028981/27983127-dfeea940-63d2-11e7-93d3-478374710a25.png)|![mcq_incorrect_answer](https://user-images.githubusercontent.com/26028981/27983158-6e38f732-63d3-11e7-9ee8-ffc6f55cb97a.png)|
+
+|Multi-choice Question|Multi-choice Question - Correct Answer|Answer Hint|Score on Completion|
+|---|---|---|---|
+|![mcq_checkbox_selected_answers](https://user-images.githubusercontent.com/26028981/27983163-82ae1b0c-63d3-11e7-9b3e-040d99f3b65d.png)|![mcq_checkbox_incorrect_answer](https://user-images.githubusercontent.com/26028981/27983165-92307bba-63d3-11e7-8bda-3cfc2e8cd0f2.png)|![textual_question_answered_2](https://user-images.githubusercontent.com/26028981/27983110-8d73dafa-63d2-11e7-8918-869415f5dd2f.png)|![score_on_completion](https://user-images.githubusercontent.com/26028981/27983169-a14aace2-63d3-11e7-9539-6c179ccccb3f.png)|
 
 #### Review from the Reviewer (Udacity)
 ![Review_Quiz_App](https://user-images.githubusercontent.com/26028981/65774028-16a9a180-e15b-11e9-8c83-449bf942946b.PNG)
@@ -143,7 +147,20 @@ Consists of lessons and tutorial projects that teaches the following parts in de
 
 ![Review_Musical_Structure](https://github.com/kaushiknsanji/RhythmApp/raw/udacity/art/review/review_musical_structure.png)
 
-### 5. Report Card class
+### 5. Report Card class - [Report Card App](https://github.com/kaushiknsanji/Report_Card_App)
+
+![GitHub](https://img.shields.io/github/license/kaushiknsanji/Report_Card_App)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/kaushiknsanji/Report_Card_App)  ![GitHub repo size](https://img.shields.io/github/repo-size/kaushiknsanji/Report_Card_App)  ![GitHub search hit counter](https://img.shields.io/github/search/kaushiknsanji/Report_Card_App/Report%20Card) ![Minimum API level](https://img.shields.io/badge/API-15+-yellow)
+
+*Report Card* App is an exercise project aimed at learning how to create and interact with custom Java classes. As such, it is just a Java class, rather than a full Android App. This project has no UI components. It contains only a Model Class [ReportCard](https://github.com/kaushiknsanji/Report_Card_App/blob/udacity/app/src/main/java/com/example/kaushiknsanji/reportcardpojo/models/ReportCard.java) that helps in managing and recording a student’s grades for a particular year.
+
+#### Topics learnt
+* Designing a custom POJO/Model class.
+* Creating that class in Java code.
+* Storing information in a collection and reading the same.
+
+#### Review from the Reviewer (Udacity)
+
+![Review_Report_Card_App](https://github.com/kaushiknsanji/Report_Card_App/raw/udacity/art/review/review_report_card_app.png)
 
 ### 6. Tour Guide App
 
