@@ -157,6 +157,14 @@ Consists of lessons and tutorial projects that teaches the following parts in de
 
 ---
 
+## Certificate of Completion
+
+<a href="https://confirm.udacity.com/ERJHK3CF">
+<img alt="Udacity Android Basics Nanodegree Certificate" src="https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/8708f357-3c02-42df-8ec9-72d03e1057c7.svg" width="50%">
+</a>
+
+---
+
 ## License
 
 ```
