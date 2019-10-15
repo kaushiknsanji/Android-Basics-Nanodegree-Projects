@@ -18,7 +18,7 @@ Consists of lessons and tutorial projects that teaches the following parts in de
 	* Explains how to show multiple screens in a Miwok language app, incorporating audio and images to the app, while educating how Android handles touch events. Also, instructs on how to make visual changes in order to polish a fully functional app.
 	* Project-4: [Musical Structure](#4-musical-structure---rhythm)
 	* Project-5: [Report Card class](#5-report-card-class---report-card-app)
-	* Project-6: Tour Guide App
+	* Project-6: [Tour Guide App](#6-tour-guide-app---xploremysuru)
   
 * **Networking**
 	* Elaborates on the power of Web APIs and explains how to use them in apps for learning the basics of networking in Android, including HTTP networking, JSON parsing, and threads.
@@ -100,7 +100,7 @@ Consists of lessons and tutorial projects that teaches the following parts in de
 * [String array](https://github.com/kaushiknsanji/Bird_Quiz_App/app/src/main/res/values/quiz_strings.xml) resources for storing the questions, their options and keys.
 
 #### Sample Screenshots
-|Welcome Screen|Text input Question|Single-choice Question|Single-choice Question - Correct Answer
+|Welcome Screen|Text input Question|Single-choice Question|Single-choice Question - Correct Answer|
 |---|---|---|---|
 |![welcome_screen](https://user-images.githubusercontent.com/26028981/27983052-4a1ff1fe-63d1-11e7-913b-d06c095d5001.png)|![textual_question](https://user-images.githubusercontent.com/26028981/27983103-691345a6-63d2-11e7-9ff6-0895d233b813.png)|![mcq_selected_answer](https://user-images.githubusercontent.com/26028981/27983127-dfeea940-63d2-11e7-93d3-478374710a25.png)|![mcq_incorrect_answer](https://user-images.githubusercontent.com/26028981/27983158-6e38f732-63d3-11e7-9ee8-ffc6f55cb97a.png)|
 
@@ -149,20 +149,49 @@ Consists of lessons and tutorial projects that teaches the following parts in de
 
 ### 5. Report Card class - [Report Card App](https://github.com/kaushiknsanji/Report_Card_App)
 
-![GitHub](https://img.shields.io/github/license/kaushiknsanji/Report_Card_App)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/kaushiknsanji/Report_Card_App)  ![GitHub repo size](https://img.shields.io/github/repo-size/kaushiknsanji/Report_Card_App)  ![GitHub search hit counter](https://img.shields.io/github/search/kaushiknsanji/Report_Card_App/Report%20Card) ![Minimum API level](https://img.shields.io/badge/API-15+-yellow)
+![GitHub](https://img.shields.io/github/license/kaushiknsanji/Report_Card_App)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/kaushiknsanji/Report_Card_App)  ![GitHub repo size](https://img.shields.io/github/repo-size/kaushiknsanji/Report_Card_App)  ![Minimum API level](https://img.shields.io/badge/API-15+-yellow)
 
-*Report Card* App is an exercise project aimed at learning how to create and interact with custom Java classes. As such, it is just a Java class, rather than a full Android App. This project has no UI components. It contains only a Model Class [ReportCard](https://github.com/kaushiknsanji/Report_Card_App/blob/udacity/app/src/main/java/com/example/kaushiknsanji/reportcardpojo/models/ReportCard.java) that helps in managing and recording a student’s grades for a particular year.
+**Report Card** App is an exercise project aimed at learning how to create and interact with custom Java classes. As such, it is just a Java class, rather than a full Android App. This project has no UI components. It contains only a Model Class [ReportCard](https://github.com/kaushiknsanji/Report_Card_App/blob/udacity/app/src/main/java/com/example/kaushiknsanji/reportcardpojo/models/ReportCard.java) that helps in managing and recording a student’s grades for a particular year.
 
 #### Topics learnt
 * Designing a custom POJO/Model class.
-* Creating that class in Java code.
+* Creating the POJO/Model class in Java code.
 * Storing information in a collection and reading the same.
 
 #### Review from the Reviewer (Udacity)
 
 ![Review_Report_Card_App](https://github.com/kaushiknsanji/Report_Card_App/raw/udacity/art/review/review_report_card_app.png)
 
-### 6. Tour Guide App
+### 6. Tour Guide App - [XploreMysuru](https://github.com/kaushiknsanji/XploreMysuru)
+
+<image align="right" src="https://github.com/kaushiknsanji/XploreMysuru/blob/udacity/app/src/main/ic_launcher-web.png" width="25%"/>
+
+![GitHub](https://img.shields.io/github/license/kaushiknsanji/XploreMysuru)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/kaushiknsanji/XploreMysuru)  ![GitHub repo size](https://img.shields.io/github/repo-size/kaushiknsanji/XploreMysuru)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/kaushiknsanji/XploreMysuru)](https://github.com/kaushiknsanji/XploreMysuru/releases)  ![GitHub All Releases](https://img.shields.io/github/downloads/kaushiknsanji/XploreMysuru/total)  ![Minimum API level](https://img.shields.io/badge/API-15+-yellow)
+
+**XploreMysuru** App is a Tour Guide App that guides a user in exploring the **"City of Palaces"/"Mysore"**. It contains 5 lists of relevant attractions comprising of **Places**, **Parks**, **Hotels**, **Restaurants** and **Shops**, presented with `BottomNavigationView` for easier navigation between the lists. All the information (including pictures) for each of the attractions are stored locally and read from App resources.
+
+#### Topics learnt/explored
+
+* Used `ConstraintLayout` heavily for most of the layouts along with custom `styles`.
+* Implemented **MVP + Repository** pattern with App Resources.
+* Explored `BottomNavigationView` for Navigating between the lists of attraction.
+* Implemented [Snap Behavior](https://github.com/kaushiknsanji/XploreMysuru/blob/udacity/app/src/main/java/com/example/kaushiknsanji/xploremysuru/extensions/BottomNavigationBehavior.java) for `BottomNavigationView` that hides the `BottomNavigationView` when more than or equal to half of its height is translated away. The Behavior also takes care of docking the Snackbar on top of the `BottomNavigationView` when shown.
+* Used `CardView` for displaying each place of attraction.
+* Implemented Loading of Images in a background thread through a Headless [Fragment](https://github.com/kaushiknsanji/XploreMysuru/blob/udacity/app/src/main/java/com/example/kaushiknsanji/xploremysuru/workers/ImageDecoderFragment.java).
+* Developed [BitmapImageCache](https://github.com/kaushiknsanji/XploreMysuru/blob/udacity/app/src/main/java/com/example/kaushiknsanji/xploremysuru/cache/BitmapImageCache.java) utility that uses `android.util.LruCache` to cache the recent Bitmap Images decoded. 
+* Carried out Image decoding in a background thread using [ImageDecoder](https://github.com/kaushiknsanji/XploreMysuru/blob/udacity/app/src/main/java/com/example/kaushiknsanji/xploremysuru/workers/ImageDecoder.java) that extends `AsyncTaskLoader`.
+* Developed [BitmapUtility](https://github.com/kaushiknsanji/XploreMysuru/blob/udacity/app/src/main/java/com/example/kaushiknsanji/xploremysuru/utils/BitmapUtility.java) to extract `Palette` Swatches from the Images.
+
+#### Sample Screenshots
+
+|Places|Hotels|Restaurants (Expanded Item)|BottomNavigationView (Docked Snackbar)|
+|---|---|---|---|
+|![place_portrait](https://user-images.githubusercontent.com/26028981/51127857-8fc2cc00-184c-11e9-996d-0946ab3ffb2b.png)|![hotel_portrait](https://user-images.githubusercontent.com/26028981/51127897-a49f5f80-184c-11e9-8876-e79b9c4a3101.png)|![restaurant_item_expand](https://user-images.githubusercontent.com/26028981/51127914-ae28c780-184c-11e9-840b-ded292b0d5df.png)|![shop_no_link_2](https://user-images.githubusercontent.com/26028981/51127966-ca2c6900-184c-11e9-9438-7034df166b94.png)|
+
+#### Review from the Reviewer (Udacity)
+
+![Review_Tour_Guide_App](https://user-images.githubusercontent.com/26028981/51263273-edd0ea00-19d9-11e9-837c-7ceb4aefb8c0.png)
 
 ### 7. Book Listing App
 
