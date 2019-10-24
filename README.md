@@ -22,7 +22,7 @@ Consists of lessons and tutorial projects that teaches the following parts in de
   
 * **Networking**
 	* Elaborates on the power of Web APIs and explains how to use them in apps for learning the basics of networking in Android, including HTTP networking, JSON parsing, and threads.
-	* Project-7: Book Listing App
+	* Project-7: [Book Listing App](#7-book-listing-app---books-library)
 	* Project-8: News App
   
 * **Data Storage**  
@@ -193,7 +193,46 @@ Consists of lessons and tutorial projects that teaches the following parts in de
 
 ![Review_Tour_Guide_App](https://user-images.githubusercontent.com/26028981/51263273-edd0ea00-19d9-11e9-837c-7ceb4aefb8c0.png)
 
-### 7. Book Listing App
+### 7. Book Listing App - [Books Library](https://github.com/kaushiknsanji/Books_Library_App)
+
+<image align="right" src="https://github.com/kaushiknsanji/Books_Library_App/blob/udacity/app/src/main/ic_launcher-web.png" width="25%"/>
+
+![GitHub](https://img.shields.io/github/license/kaushiknsanji/Books_Library_App)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/kaushiknsanji/Books_Library_App)  ![GitHub repo size](https://img.shields.io/github/repo-size/kaushiknsanji/Books_Library_App)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/kaushiknsanji/Books_Library_App)](https://github.com/kaushiknsanji/Books_Library_App/releases)  ![GitHub All Releases](https://img.shields.io/github/downloads/kaushiknsanji/Books_Library_App/total)  ![Minimum API level](https://img.shields.io/badge/API-15+-yellow)
+
+**Books Library** App is a Book Listing App that connects to the [Google Books API](https://developers.google.com/books/) to retrieve the list of Books for the topic searched and then displays them in a decorative BookShelf format. Provides users the ability to control the Search Results through the various API supported parameters, provided in the Search Settings of the App. The Search box features the API supported search keyword filtering which narrows down the results to the keyword being looked up.
+
+#### Topics learnt/explored
+
+* Assisted Search Implementation with `SearchView`.
+* Used `RecyclerView` in place of `ListView` and `GridView` for its advantages in performance and easy placeholders for custom item decoration.
+* Custom [RecyclerView.ItemDecoration](https://github.com/kaushiknsanji/Books_Library_App/blob/0c15b06877ca29523a588b67f30431f4acfaed37/app/src/main/java/com/example/kaushiknsanji/bookslibrary/adapterviews/RecyclerViewFragment.java#L362-L445) for decorating each of the items in List/Grid with the Book shelf decoration.
+* Explored [FragmentStatePagerAdapter](https://github.com/kaushiknsanji/Books_Library_App/blob/udacity/app/src/main/java/com/example/kaushiknsanji/bookslibrary/adapters/DisplayPagerAdapter.java) that displays the Fragments \(retaining their state\) for the `ViewPager`.
+* Implemented `android.support.v7.preference.Preference` Preferences for the Settings.
+* No external libraries are used for communicating with the REST API and also for loading the images. `AsyncTaskLoader` has been used for downloading the data and images in the background thread. Images are downloaded using a Headless [Fragment](https://github.com/kaushiknsanji/Books_Library_App/blob/udacity/app/src/main/java/com/example/kaushiknsanji/bookslibrary/workers/ImageDownloader.java).
+* Developed [BitmapImageCache](https://github.com/kaushiknsanji/Books_Library_App/blob/udacity/app/src/main/java/com/example/kaushiknsanji/bookslibrary/cache/BitmapImageCache.java) utility that uses `android.util.LruCache` to cache the recent Bitmap Images downloaded. 
+* Most layouts are designed using `ConstraintLayout` to flatten the layout hierachy as far as possible.
+* Indeterminate progress bar is implemented with animation-list / AnimationDrawable.
+* [TextAppearanceUtility](/app/src/main/java/com/example/kaushiknsanji/bookslibrary/utils/TextAppearanceUtility.java) for decorating `TextViews` using Spannables, for strikethrough, image within text, selective text coloring and relative text resize.
+* `CardView` for displaying the information of a Book.
+
+#### Video Preview
+
+[![Video of Complete App Flow](https://i.ytimg.com/vi/deXm1yzqRmU/maxresdefault.jpg)](https://youtu.be/deXm1yzqRmU)
+
+#### Sample Screenshots
+
+|Search Screen|Recent Search Suggestions|Results - List|Results - Grid|
+|---|---|---|---|
+|![welcome_page](https://user-images.githubusercontent.com/26028981/32066973-292b2430-ba9f-11e7-8650-096d1d818fb0.png)|![assisted_search](https://user-images.githubusercontent.com/26028981/32066984-36ffac5c-ba9f-11e7-9698-575374ee48ca.png)|![list_view](https://user-images.githubusercontent.com/26028981/32067013-51ad2cf0-ba9f-11e7-9d75-acec8788c4ed.png)|![grid_view](https://user-images.githubusercontent.com/26028981/32067015-52eeab34-ba9f-11e7-846f-08eb83a8a1bd.png)|
+
+|Book Details - 1|Book Details - 2|Book Image|Settings|
+|---|---|---|---|
+|![details_portrait_1](https://user-images.githubusercontent.com/26028981/32067039-616fb482-ba9f-11e7-9afc-598898c59640.png)|![details_portrait_2](https://user-images.githubusercontent.com/26028981/32067041-62717ef6-ba9f-11e7-8e36-6b20f02ff66f.png)|![book_image_view](https://user-images.githubusercontent.com/26028981/32067050-68559410-ba9f-11e7-9250-c19f23cf3762.png)|![search_settings](https://user-images.githubusercontent.com/26028981/32067053-6ddcc7aa-ba9f-11e7-9d56-454123d40f64.png)|
+
+#### Review from the Reviewer (Udacity)
+
+![Review_Book_Listing_App](https://user-images.githubusercontent.com/26028981/66827627-b7c29580-ef6c-11e9-9ff5-462488f109fa.PNG)
 
 ### 8. News App
 
@@ -205,8 +244,8 @@ Consists of lessons and tutorial projects that teaches the following parts in de
 
 ## Certificate of Completion
 
-<a href="https://confirm.udacity.com/ERJHK3CF">
-<img alt="Udacity Android Basics Nanodegree Certificate" src="https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/8708f357-3c02-42df-8ec9-72d03e1057c7.svg" width="50%">
+<a href="https://confirm.udacity.com/ERJHK3CF" style="background-color:#808080;">
+<img alt="Udacity Android Basics Nanodegree Certificate" src="https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/8708f357-3c02-42df-8ec9-72d03e1057c7.svg" width="50%"/>
 </a>
 
 ---
