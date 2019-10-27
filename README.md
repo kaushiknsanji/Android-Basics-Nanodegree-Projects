@@ -1,34 +1,34 @@
-# Udacity Android Basics Nanodegree Projects
+# Udacity Android Basics Nanodegree Projects (WIP)
 
 [Curriculum](https://www.udacity.com/course/android-basics-nanodegree-by-google--nd803) built by Google for aspiring Android Developers who are new to programming, that trains them to acquire the real-world skills and teaches how to build and accelerate their journey towards becoming a professional Android developer.
 
 ## Core Curriculum
 
-Consists of lessons and tutorial projects that teaches the following parts in detail -
+Consists of lessons, tutorial projects and submission projects that teaches the following parts in detail -
 * **User Interface**
 	* Explains how to transform any hand-drawn app designs into layouts using the XML markup language, with Views and ViewGroups, which are the building blocks of an Android app's user interface to display images and text.
-	* Project-1: [Single Screen App](#1-single-screen-app---invitation)
+	* Submission Project-1: [Single Screen App](#1-single-screen-app---invitation)
   
 * **User Input**
 	* Elaborates on the power of Java through the process of building a coffee-ordering app, using variables to add interactivity to the app, while educating the basics of object-oriented programming.
-	* Project-2: [Score Keeper App](#2-score-keeper-app---tennis-scoring)
-	* Project-3: [Quiz App](#3-quiz-app---quiz-of-aves)
+	* Submission Project-2: [Score Keeper App](#2-score-keeper-app---tennis-scoring)
+	* Submission Project-3: [Quiz App](#3-quiz-app---quiz-of-aves)
   
 * **Multi-Screen Apps**
 	* Explains how to show multiple screens in a Miwok language app, incorporating audio and images to the app, while educating how Android handles touch events. Also, instructs on how to make visual changes in order to polish a fully functional app.
-	* Project-4: [Musical Structure](#4-musical-structure---rhythm)
-	* Project-5: [Report Card class](#5-report-card-class---report-card-app)
-	* Project-6: [Tour Guide App](#6-tour-guide-app---xploremysuru)
+	* Submission Project-4: [Musical Structure](#4-musical-structure---rhythm)
+	* Submission Project-5: [Report Card class](#5-report-card-class---report-card-app)
+	* Submission Project-6: [Tour Guide App](#6-tour-guide-app---xploremysuru)
   
 * **Networking**
 	* Elaborates on the power of Web APIs and explains how to use them in apps for learning the basics of networking in Android, including HTTP networking, JSON parsing, and threads.
-	* Project-7: [Book Listing App](#7-book-listing-app---books-library)
-	* Project-8: News App
+	* Submission Project-7: [Book Listing App](#7-book-listing-app---books-library)
+	* Submission Project-8: [News App](#8-news-app--novalines)
   
 * **Data Storage**  
 	* Educates about the importance of data persistence when building an Android app. Explains how to work with SQL databases and Content Providers, which helps to keep the app's data bug-free and allows to share an app's data storage with other developers.
-	* Project-9: Habit Tracker App
-	* Project-10: Inventory App
+	* Submission Project-9: [Habit Tracker App](#9-habit-tracker-app---hydrationtracker)
+	* Submission Project-10: [Inventory App](#10-inventory-app---storeapp)
 	
 ---
 
@@ -234,17 +234,59 @@ Consists of lessons and tutorial projects that teaches the following parts in de
 
 ![Review_Book_Listing_App](https://user-images.githubusercontent.com/26028981/66827627-b7c29580-ef6c-11e9-9ff5-462488f109fa.PNG)
 
-### 8. News App
+### 8. News App - [NovaLines](https://github.com/kaushiknsanji/NovaLines_TheGuardianNewsApp)
 
-### 9. Habit Tracker App
+<image align="right" src="https://github.com/kaushiknsanji/NovaLines_TheGuardianNewsApp/blob/udacity/app/src/main/ic_launcher-web.png" width="25%"/>
 
-### 10. Inventory App
+![GitHub](https://img.shields.io/github/license/kaushiknsanji/NovaLines_TheGuardianNewsApp)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/kaushiknsanji/NovaLines_TheGuardianNewsApp)  ![GitHub repo size](https://img.shields.io/github/repo-size/kaushiknsanji/NovaLines_TheGuardianNewsApp)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/kaushiknsanji/NovaLines_TheGuardianNewsApp)](https://github.com/kaushiknsanji/NovaLines_TheGuardianNewsApp/releases)  ![GitHub All Releases](https://img.shields.io/github/downloads/kaushiknsanji/NovaLines_TheGuardianNewsApp/total)  ![Minimum API level](https://img.shields.io/badge/API-15+-yellow)
+
+**Novalines** App is a News App that connects to the [Guardian News API](https://open-platform.theguardian.com/documentation/) to retrieve the News Feed based on a particular endpoint and then displays them as a list. It implements the **"section"** and **"search"** endpoints. By default, the App loads **"Top Stories"**, **"Most Visited"** and **"World news"** sections. It parses the News Feed for the subscribed News section or the searched News, and then displays the list of News Articles in Cards. On top of these News Articles, many useful features are provided, like -
+* Sharing the News Articles.
+* Saving the News Article to Bookmarks for Reading later (Stub only).
+* Saving the News Articles to Favorites (Stub only).
+* Jumping to a particular News section /or temporarily subscribing to a News section.
+
+#### Topics learnt/explored
+
+* Used `RecyclerView` in place of `ListView` (to display the News stories) for its advantages in performance and easy placeholders for custom item decoration.
+* Custom [RecyclerView.ItemDecoration](https://github.com/kaushiknsanji/NovaLines_TheGuardianNewsApp/blob/udacity/app/src/main/java/com/example/kaushiknsanji/novalines/utils/RecyclerViewItemDecorUtility.java) for adding space between the News List items.
+* `CardView` for displaying the News stories content for each News List items.
+* Custom Navigation Drawer Items implemented using `RecyclerView`.
+* Explored [FragmentStatePagerAdapter](https://github.com/kaushiknsanji/NovaLines_TheGuardianNewsApp/blob/udacity/app/src/main/java/com/example/kaushiknsanji/novalines/adapters/HeadlinesPagerAdapter.java) that displays the Fragments \(retaining their state\) for the `ViewPager`. Also, mocks the dynamic adding of additional tab content to the `ViewPager`.
+* Implemented Settings using `android.support.v7.preference.Preference`.
+* No external libraries are used for communicating with the REST API and also for loading the images. `AsyncTaskLoader` has been used for downloading the data and images in the background thread. Images are downloaded using a Headless [Fragment](https://github.com/kaushiknsanji/NovaLines_TheGuardianNewsApp/blob/udacity/app/src/main/java/com/example/kaushiknsanji/novalines/workers/ImageDownloaderFragment.java).
+* Developed [BitmapImageCache](https://github.com/kaushiknsanji/NovaLines_TheGuardianNewsApp/blob/udacity/app/src/main/java/com/example/kaushiknsanji/novalines/cache/BitmapImageCache.java) utility that uses `android.util.LruCache` to cache the recent Bitmap Images downloaded.
+* Most layouts are designed using `ConstraintLayout` to flatten the layout hierarchy as far as possible.
+* [TextAppearanceUtility](https://github.com/kaushiknsanji/NovaLines_TheGuardianNewsApp/blob/udacity/app/src/main/java/com/example/kaushiknsanji/novalines/utils/TextAppearanceUtility.java) for decorating `TextViews` using Spannables, for image within text and html content in text.
+* Custom Fonts for `TextViews` using `ResourceCompat`.
+* Explored `CoordinatorLayout`.
+* Used `RecyclerView` in a `SwipeRefreshLayout` to use the integrated Progress/Refresh indicator.
+* Used `DiffUtil` in `RecyclerView` to help rebind only the item views that have changed.
+
+#### Video Preview
+
+[![Video of Complete App Flow](https://i.ytimg.com/vi/XzZbe7aYeXU/maxresdefault.jpg)](https://youtu.be/XzZbe7aYeXU)
+
+#### Sample Screenshots
+
+|Drawer|Highlights|Most Visited (with News Item Popup Menu)|Settings|
+|---|---|---|---|
+|![drawer_layout](https://user-images.githubusercontent.com/26028981/38467585-7f1d3cf4-3b58-11e8-9c4a-988f7f68faa3.png)|![headlines_fragment](https://user-images.githubusercontent.com/26028981/38467590-97648cc2-3b58-11e8-8913-fb3011d00760.png)|![card_item_popup](https://user-images.githubusercontent.com/26028981/38467660-7e924670-3b59-11e8-92bf-8a5321428d80.png)|![settings_screen](https://user-images.githubusercontent.com/26028981/38467697-cfb82272-3b59-11e8-81f5-07e9a7a85326.png)|
+
+#### Review from the Reviewer (Udacity)
+
+![review](https://user-images.githubusercontent.com/26028981/38767016-63bfb7b2-3ff8-11e8-86cf-2930a6fc14fc.PNG)
+
+### 9. Habit Tracker App - [HydrationTracker](https://github.com/kaushiknsanji/HydrationTracker_Demo_App) 
+
+### 10. Inventory App - [StoreApp](https://github.com/kaushiknsanji/StoreApp)
 
 ---
 
 ## Certificate of Completion
 
-<a href="https://confirm.udacity.com/ERJHK3CF" style="background-color:#808080;">
+<a href="https://confirm.udacity.com/ERJHK3CF">
 <img alt="Udacity Android Basics Nanodegree Certificate" src="https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/8708f357-3c02-42df-8ec9-72d03e1057c7.svg" width="50%"/>
 </a>
 
