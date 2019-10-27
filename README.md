@@ -23,7 +23,7 @@ Consists of lessons, tutorial projects and submission projects that teaches the 
 * **Networking**
 	* Elaborates on the power of Web APIs and explains how to use them in apps for learning the basics of networking in Android, including HTTP networking, JSON parsing, and threads.
 	* Submission Project-7: [Book Listing App](#7-book-listing-app---books-library)
-	* Submission Project-8: [News App](#8-news-app--novalines)
+	* Submission Project-8: [News App](#8-news-app---novalines)
   
 * **Data Storage**  
 	* Educates about the importance of data persistence when building an Android app. Explains how to work with SQL databases and Content Providers, which helps to keep the app's data bug-free and allows to share an app's data storage with other developers.
