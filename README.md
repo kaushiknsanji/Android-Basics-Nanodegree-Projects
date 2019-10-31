@@ -241,7 +241,7 @@ Consists of lessons, tutorial projects and submission projects that teaches the 
 ![GitHub](https://img.shields.io/github/license/kaushiknsanji/NovaLines_TheGuardianNewsApp)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/kaushiknsanji/NovaLines_TheGuardianNewsApp)  ![GitHub repo size](https://img.shields.io/github/repo-size/kaushiknsanji/NovaLines_TheGuardianNewsApp)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/kaushiknsanji/NovaLines_TheGuardianNewsApp)](https://github.com/kaushiknsanji/NovaLines_TheGuardianNewsApp/releases)  ![GitHub All Releases](https://img.shields.io/github/downloads/kaushiknsanji/NovaLines_TheGuardianNewsApp/total)  ![Minimum API level](https://img.shields.io/badge/API-15+-yellow)
 
-**Novalines** App is a News App that connects to the [Guardian News API](https://open-platform.theguardian.com/documentation/) to retrieve the News Feed based on a particular endpoint and then displays them as a list. It implements the **"section"** and **"search"** endpoints. By default, the App loads **"Top Stories"**, **"Most Visited"** and **"World news"** sections. It parses the News Feed for the subscribed News section or the searched News, and then displays the list of News Articles in Cards. On top of these News Articles, many useful features are provided, like -
+**Novalines** App is a News App that connects to the [Guardian News API](https://open-platform.theguardian.com/documentation/) to retrieve the News Feed based on a particular endpoint and then displays them as a list. It implements the **section** and **search** endpoints. By default, the App loads **"Top Stories"**, **"Most Visited"** and **"World news"** sections. It parses the News Feed for the subscribed News section or the searched News, and then displays the list of News Articles in Cards. On top of these News Articles, many useful features are provided, like -
 * Sharing the News Articles.
 * Saving the News Article to Bookmarks for Reading later (Stub only).
 * Saving the News Articles to Favorites (Stub only).
@@ -279,6 +279,35 @@ Consists of lessons, tutorial projects and submission projects that teaches the 
 ![review](https://user-images.githubusercontent.com/26028981/38767016-63bfb7b2-3ff8-11e8-86cf-2930a6fc14fc.PNG)
 
 ### 9. Habit Tracker App - [HydrationTracker](https://github.com/kaushiknsanji/HydrationTracker_Demo_App) 
+
+<image align="right" src="https://github.com/kaushiknsanji/HydrationTracker_Demo_App/blob/udacity/app/src/main/ic_launcher-web.png" width="25%"/>
+
+![GitHub](https://img.shields.io/github/license/kaushiknsanji/HydrationTracker_Demo_App)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/kaushiknsanji/HydrationTracker_Demo_App)  ![GitHub repo size](https://img.shields.io/github/repo-size/kaushiknsanji/HydrationTracker_Demo_App)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/kaushiknsanji/HydrationTracker_Demo_App)](https://github.com/kaushiknsanji/HydrationTracker_Demo_App/releases)  ![GitHub All Releases](https://img.shields.io/github/downloads/kaushiknsanji/HydrationTracker_Demo_App/total)  ![Minimum API level](https://img.shields.io/badge/API-15+-yellow)
+
+**HydrationTracker** App is a Habit Tracker App, where the habit tracked is the daily habit of Hydration. It is recommended to drink 1-2 litres of Water per day for Good Health, but this also depends on how much one expends/dehydrates. So, at least 1 litre of Water per day is a Good Habit and 1 litre amounts to 8 Glasses of Water. App keeps track of the Hydration Habit through a Simple UI. Under the hood, it stores your log /or track records in a `SQLite` database. Mainly demonstrates the use of `SQLite` database and its CRUD operations.
+
+#### Topics learnt/explored
+
+* Learnt how to create SQLite tables and execute CRUD operations.
+* Although defined in the Rubric that no UI is required, I went ahead and did a simple UI to display only the recent records, to know what is going on in the backend.
+* Explored `Handlers` and `HandlerThreads` to perform database operations in a background thread.
+* [TextAppearanceUtility](/app/src/main/java/com/example/kaushiknsanji/hydrationtrackerdemo/utils/TextAppearanceUtility.java) for decorating `TextViews` using Spannables, for html content in text, and coloring a part of the text.
+* Explored the use of `TextInputLayout` and `TextInputEditText`. 
+
+#### Video Preview
+
+[![Video of Complete App Flow](https://i.ytimg.com/vi/x1TKTl9uhRE/maxresdefault.jpg)](https://youtu.be/x1TKTl9uhRE)
+
+#### Sample Screenshots
+
+|Initial Stage of No records|No records with only Insert button|When records are Added/Deleted|Input for "Glass of Water" drank with buttons for CRUD operations|
+|---|---|---|---|
+|![initial_launch_1](https://user-images.githubusercontent.com/26028981/39393159-8a1b2378-4adf-11e8-90d0-13988e8554e5.png)|![initial_launch_2](https://user-images.githubusercontent.com/26028981/39393160-8c020a94-4adf-11e8-95fb-e0bb12a320b6.png)|![database_counts_sample](https://user-images.githubusercontent.com/26028981/39393152-7882a7ee-4adf-11e8-844a-50939858f37a.png)|![table_sample](https://user-images.githubusercontent.com/26028981/39393156-828d2886-4adf-11e8-8239-02ce2357afd8.png)|
+
+#### Review from the Reviewer (Udacity)
+
+![review](https://user-images.githubusercontent.com/26028981/39418686-64334aaa-4c79-11e8-910f-2d4e5d0b6c92.PNG)
 
 ### 10. Inventory App - [StoreApp](https://github.com/kaushiknsanji/StoreApp)
 
