@@ -1,4 +1,4 @@
-# Udacity Android Basics Nanodegree Projects (WIP)
+# Udacity Android Basics Nanodegree Projects
 
 [Curriculum](https://www.udacity.com/course/android-basics-nanodegree-by-google--nd803) built by Google for aspiring Android Developers who are new to programming, that trains them to acquire the real-world skills and teaches how to build and accelerate their journey towards becoming a professional Android developer.
 
@@ -39,7 +39,7 @@ Consists of lessons, tutorial projects and submission projects that teaches the 
 <image align="right" src="https://github.com/kaushiknsanji/Invitation_Udacity_Project/blob/release_v1.0/app/src/main/ic_launcher-web.png" width="25%"/>
 
 ![GitHub](https://img.shields.io/github/license/kaushiknsanji/Invitation_Udacity_Project)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/kaushiknsanji/Invitation_Udacity_Project)  ![GitHub repo size](https://img.shields.io/github/repo-size/kaushiknsanji/Invitation_Udacity_Project)
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/kaushiknsanji/Invitation_Udacity_Project)](https://github.com/kaushiknsanji/Invitation_Udacity_Project/releases)  ![GitHub All Releases](https://img.shields.io/github/downloads/kaushiknsanji/Invitation_Udacity_Project/total)  ![Minimum API level](https://img.shields.io/badge/API-15+-yellow)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/kaushiknsanji/Invitation_Udacity_Project)](https://github.com/kaushiknsanji/Invitation_Udacity_Project/releases)  ![GitHub All Releases](https://img.shields.io/github/downloads/kaushiknsanji/Invitation_Udacity_Project/total)  ![GitHub stars](https://img.shields.io/github/stars/kaushiknsanji/Invitation_Udacity_Project?style=social)  ![GitHub forks](https://img.shields.io/github/forks/kaushiknsanji/Invitation_Udacity_Project?style=social)  ![Minimum API level](https://img.shields.io/badge/API-15+-yellow)
 
 **Invitation** is a Single Screen App that displays details of a particular location of interest which includes "Contact information", " Location Address", "Description of the Business" and "Hours of operation".
 
@@ -58,7 +58,7 @@ Consists of lessons, tutorial projects and submission projects that teaches the 
 <image align="right" src="https://github.com/kaushiknsanji/Tennis_Score_Keeper_Udacity/blob/release_v1.0/app/src/main/ic_launcher-web.png" width="25%"/>
 
 ![GitHub](https://img.shields.io/github/license/kaushiknsanji/Tennis_Score_Keeper_Udacity)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/kaushiknsanji/Tennis_Score_Keeper_Udacity)  ![GitHub repo size](https://img.shields.io/github/repo-size/kaushiknsanji/Tennis_Score_Keeper_Udacity)
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/kaushiknsanji/Tennis_Score_Keeper_Udacity)](https://github.com/kaushiknsanji/Tennis_Score_Keeper_Udacity/releases)  ![GitHub All Releases](https://img.shields.io/github/downloads/kaushiknsanji/Tennis_Score_Keeper_Udacity/total)  ![Minimum API level](https://img.shields.io/badge/API-15+-yellow)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/kaushiknsanji/Tennis_Score_Keeper_Udacity)](https://github.com/kaushiknsanji/Tennis_Score_Keeper_Udacity/releases)  ![GitHub All Releases](https://img.shields.io/github/downloads/kaushiknsanji/Tennis_Score_Keeper_Udacity/total)  ![GitHub stars](https://img.shields.io/github/stars/kaushiknsanji/Tennis_Score_Keeper_Udacity?style=social)  ![GitHub forks](https://img.shields.io/github/forks/kaushiknsanji/Tennis_Score_Keeper_Udacity?style=social)  ![Minimum API level](https://img.shields.io/badge/API-15+-yellow)
 
 **Tennis Scoring** is the Score Keeper App for Tennis, based on the rules followed in the Grand Slams for Men's and Women's Tennis. It has a Single Screen that displays the Scoreboards for the Tennis Match, as well as tracks and manages the scores of each Player during the Play.
 
@@ -81,7 +81,7 @@ Consists of lessons, tutorial projects and submission projects that teaches the 
 <image align="right" src="https://github.com/kaushiknsanji/Bird_Quiz_App/blob/release_v1.0/app/src/main/ic_launcher-web.png" width="25%"/>
 
 ![GitHub](https://img.shields.io/github/license/kaushiknsanji/Bird_Quiz_App)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/kaushiknsanji/Bird_Quiz_App)  ![GitHub repo size](https://img.shields.io/github/repo-size/kaushiknsanji/Bird_Quiz_App)
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/kaushiknsanji/Bird_Quiz_App)](https://github.com/kaushiknsanji/Bird_Quiz_App/releases)  ![GitHub All Releases](https://img.shields.io/github/downloads/kaushiknsanji/Bird_Quiz_App/total)  ![Minimum API level](https://img.shields.io/badge/API-16+-yellow)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/kaushiknsanji/Bird_Quiz_App)](https://github.com/kaushiknsanji/Bird_Quiz_App/releases)  ![GitHub All Releases](https://img.shields.io/github/downloads/kaushiknsanji/Bird_Quiz_App/total)  ![GitHub stars](https://img.shields.io/github/stars/kaushiknsanji/Bird_Quiz_App?style=social)  ![GitHub forks](https://img.shields.io/github/forks/kaushiknsanji/Bird_Quiz_App?style=social)  ![Minimum API level](https://img.shields.io/badge/API-16+-yellow)
 
 **Quiz of Aves** is a Quiz App on **Birds**, that has a total of **50** questions in variety of formats such as "free text response", checkboxes (Multi-choice) and radio buttons (Single-choice). It presents the user with a randomly selected set of questions (read from the String resources) for the number of questions the user wishes to take the quiz, with options for "Multi-choice" and "Single-choice" questions displayed in a random order. For each question, user is presented with an optional Hint after an incorrect attempt, that shows an Image of the Bird(s) in question as a hint when requested by the user to reveal the hint, which in turn means that the user gets a second chance to answer each question. Entire quiz is timed, and the timer value is set accordingly to the number of questions selected by the user, by allocating 45 seconds for each question. The timer runs even when the app goes into background. At the end of the quiz, a dialog will show up for displaying the final score to the user.
 
@@ -116,7 +116,7 @@ Consists of lessons, tutorial projects and submission projects that teaches the 
 <image align="right" src="https://github.com/kaushiknsanji/RhythmApp/blob/udacity/app/src/main/ic_launcher-web.png" width="25%"/>
 
 ![GitHub](https://img.shields.io/github/license/kaushiknsanji/RhythmApp)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/kaushiknsanji/RhythmApp)  ![GitHub repo size](https://img.shields.io/github/repo-size/kaushiknsanji/RhythmApp)
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/kaushiknsanji/RhythmApp)](https://github.com/kaushiknsanji/RhythmApp/releases)  ![GitHub All Releases](https://img.shields.io/github/downloads/kaushiknsanji/RhythmApp/total)  ![Minimum API level](https://img.shields.io/badge/API-15+-yellow)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/kaushiknsanji/RhythmApp)](https://github.com/kaushiknsanji/RhythmApp/releases)  ![GitHub All Releases](https://img.shields.io/github/downloads/kaushiknsanji/RhythmApp/total)  ![GitHub stars](https://img.shields.io/github/stars/kaushiknsanji/RhythmApp?style=social)  ![GitHub forks](https://img.shields.io/github/forks/kaushiknsanji/RhythmApp?style=social)  ![Minimum API level](https://img.shields.io/badge/API-15+-yellow)
 
 **Rhythm** App is a Musical Structure App that showcases a structure/approach typically used for Apps that play music, without implementing its functionality. Each screen in the App displays a Text describing about the screen and what functionality goes into it. Mocking or adding real content is not allowed as per the Project Rubric. Static data from resources are only allowed. As mock up is not allowed, `AdapterView`s and `RecyclerView`s are not used. This enables more practice with using layouts. Hence, the Project mainly focuses on App designing. 
 
@@ -149,7 +149,7 @@ Consists of lessons, tutorial projects and submission projects that teaches the 
 
 ### 5. Report Card class - [Report Card App](https://github.com/kaushiknsanji/Report_Card_App)
 
-![GitHub](https://img.shields.io/github/license/kaushiknsanji/Report_Card_App)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/kaushiknsanji/Report_Card_App)  ![GitHub repo size](https://img.shields.io/github/repo-size/kaushiknsanji/Report_Card_App)  ![Minimum API level](https://img.shields.io/badge/API-15+-yellow)
+![GitHub](https://img.shields.io/github/license/kaushiknsanji/Report_Card_App)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/kaushiknsanji/Report_Card_App)  ![GitHub repo size](https://img.shields.io/github/repo-size/kaushiknsanji/Report_Card_App)  ![GitHub stars](https://img.shields.io/github/stars/kaushiknsanji/Report_Card_App?style=social)  ![GitHub forks](https://img.shields.io/github/forks/kaushiknsanji/Report_Card_App?style=social)  ![Minimum API level](https://img.shields.io/badge/API-15+-yellow)
 
 **Report Card** App is an exercise project aimed at learning how to create and interact with custom Java classes. As such, it is just a Java class, rather than a full Android App. This project has no UI components. It contains only a Model Class [ReportCard](https://github.com/kaushiknsanji/Report_Card_App/blob/udacity/app/src/main/java/com/example/kaushiknsanji/reportcardpojo/models/ReportCard.java) that helps in managing and recording a student’s grades for a particular year.
 
@@ -167,7 +167,7 @@ Consists of lessons, tutorial projects and submission projects that teaches the 
 <image align="right" src="https://github.com/kaushiknsanji/XploreMysuru/blob/udacity/app/src/main/ic_launcher-web.png" width="25%"/>
 
 ![GitHub](https://img.shields.io/github/license/kaushiknsanji/XploreMysuru)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/kaushiknsanji/XploreMysuru)  ![GitHub repo size](https://img.shields.io/github/repo-size/kaushiknsanji/XploreMysuru)
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/kaushiknsanji/XploreMysuru)](https://github.com/kaushiknsanji/XploreMysuru/releases)  ![GitHub All Releases](https://img.shields.io/github/downloads/kaushiknsanji/XploreMysuru/total)  ![Minimum API level](https://img.shields.io/badge/API-15+-yellow)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/kaushiknsanji/XploreMysuru)](https://github.com/kaushiknsanji/XploreMysuru/releases)  ![GitHub All Releases](https://img.shields.io/github/downloads/kaushiknsanji/XploreMysuru/total)  ![GitHub stars](https://img.shields.io/github/stars/kaushiknsanji/XploreMysuru?style=social)  ![GitHub forks](https://img.shields.io/github/forks/kaushiknsanji/XploreMysuru?style=social)  ![Minimum API level](https://img.shields.io/badge/API-15+-yellow)
 
 **XploreMysuru** App is a Tour Guide App that guides a user in exploring the **"City of Palaces"/"Mysore"**. It contains 5 lists of relevant attractions comprising of **Places**, **Parks**, **Hotels**, **Restaurants** and **Shops**, presented with `BottomNavigationView` for easier navigation between the lists. All the information (including pictures) for each of the attractions are stored locally and read from App resources.
 
@@ -198,7 +198,7 @@ Consists of lessons, tutorial projects and submission projects that teaches the 
 <image align="right" src="https://github.com/kaushiknsanji/Books_Library_App/blob/udacity/app/src/main/ic_launcher-web.png" width="25%"/>
 
 ![GitHub](https://img.shields.io/github/license/kaushiknsanji/Books_Library_App)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/kaushiknsanji/Books_Library_App)  ![GitHub repo size](https://img.shields.io/github/repo-size/kaushiknsanji/Books_Library_App)
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/kaushiknsanji/Books_Library_App)](https://github.com/kaushiknsanji/Books_Library_App/releases)  ![GitHub All Releases](https://img.shields.io/github/downloads/kaushiknsanji/Books_Library_App/total)  ![Minimum API level](https://img.shields.io/badge/API-15+-yellow)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/kaushiknsanji/Books_Library_App)](https://github.com/kaushiknsanji/Books_Library_App/releases)  ![GitHub All Releases](https://img.shields.io/github/downloads/kaushiknsanji/Books_Library_App/total)  ![GitHub stars](https://img.shields.io/github/stars/kaushiknsanji/Books_Library_App?style=social)  ![GitHub forks](https://img.shields.io/github/forks/kaushiknsanji/Books_Library_App?style=social)  ![Minimum API level](https://img.shields.io/badge/API-15+-yellow)
 
 **Books Library** App is a Book Listing App that connects to the [Google Books API](https://developers.google.com/books/) to retrieve the list of Books for the topic searched and then displays them in a decorative BookShelf format. Provides users the ability to control the Search Results through the various API supported parameters, provided in the Search Settings of the App. The Search box features the API supported search keyword filtering which narrows down the results to the keyword being looked up.
 
@@ -239,7 +239,7 @@ Consists of lessons, tutorial projects and submission projects that teaches the 
 <image align="right" src="https://github.com/kaushiknsanji/NovaLines_TheGuardianNewsApp/blob/udacity/app/src/main/ic_launcher-web.png" width="25%"/>
 
 ![GitHub](https://img.shields.io/github/license/kaushiknsanji/NovaLines_TheGuardianNewsApp)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/kaushiknsanji/NovaLines_TheGuardianNewsApp)  ![GitHub repo size](https://img.shields.io/github/repo-size/kaushiknsanji/NovaLines_TheGuardianNewsApp)
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/kaushiknsanji/NovaLines_TheGuardianNewsApp)](https://github.com/kaushiknsanji/NovaLines_TheGuardianNewsApp/releases)  ![GitHub All Releases](https://img.shields.io/github/downloads/kaushiknsanji/NovaLines_TheGuardianNewsApp/total)  ![Minimum API level](https://img.shields.io/badge/API-15+-yellow)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/kaushiknsanji/NovaLines_TheGuardianNewsApp)](https://github.com/kaushiknsanji/NovaLines_TheGuardianNewsApp/releases)  ![GitHub All Releases](https://img.shields.io/github/downloads/kaushiknsanji/NovaLines_TheGuardianNewsApp/total)  ![GitHub stars](https://img.shields.io/github/stars/kaushiknsanji/NovaLines_TheGuardianNewsApp?style=social)  ![GitHub forks](https://img.shields.io/github/forks/kaushiknsanji/NovaLines_TheGuardianNewsApp?style=social)  ![Minimum API level](https://img.shields.io/badge/API-15+-yellow)
 
 **Novalines** App is a News App that connects to the [Guardian News API](https://open-platform.theguardian.com/documentation/) to retrieve the News Feed based on a particular endpoint and then displays them as a list. It implements the **section** and **search** endpoints. By default, the App loads **"Top Stories"**, **"Most Visited"** and **"World news"** sections. It parses the News Feed for the subscribed News section or the searched News, and then displays the list of News Articles in Cards. On top of these News Articles, many useful features are provided, like -
 * Sharing the News Articles.
@@ -283,9 +283,9 @@ Consists of lessons, tutorial projects and submission projects that teaches the 
 <image align="right" src="https://github.com/kaushiknsanji/HydrationTracker_Demo_App/blob/udacity/app/src/main/ic_launcher-web.png" width="25%"/>
 
 ![GitHub](https://img.shields.io/github/license/kaushiknsanji/HydrationTracker_Demo_App)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/kaushiknsanji/HydrationTracker_Demo_App)  ![GitHub repo size](https://img.shields.io/github/repo-size/kaushiknsanji/HydrationTracker_Demo_App)
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/kaushiknsanji/HydrationTracker_Demo_App)](https://github.com/kaushiknsanji/HydrationTracker_Demo_App/releases)  ![GitHub All Releases](https://img.shields.io/github/downloads/kaushiknsanji/HydrationTracker_Demo_App/total)  ![Minimum API level](https://img.shields.io/badge/API-15+-yellow)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/kaushiknsanji/HydrationTracker_Demo_App)](https://github.com/kaushiknsanji/HydrationTracker_Demo_App/releases)  ![GitHub All Releases](https://img.shields.io/github/downloads/kaushiknsanji/HydrationTracker_Demo_App/total)  ![GitHub stars](https://img.shields.io/github/stars/kaushiknsanji/HydrationTracker_Demo_App?style=social)  ![GitHub forks](https://img.shields.io/github/forks/kaushiknsanji/HydrationTracker_Demo_App?style=social)  ![Minimum API level](https://img.shields.io/badge/API-15+-yellow)
 
-**HydrationTracker** App is a Habit Tracker App, where the habit tracked is the daily habit of Hydration. It is recommended to drink 1-2 litres of Water per day for Good Health, but this also depends on how much one expends/dehydrates. So, at least 1 litre of Water per day is a Good Habit and 1 litre amounts to 8 Glasses of Water. App keeps track of the Hydration Habit through a Simple UI. Under the hood, it stores your log /or track records in a `SQLite` database. Mainly demonstrates the use of `SQLite` database and its CRUD operations.
+**HydrationTracker** App is a Habit Tracker App, where the habit tracked is the daily habit of Hydration. It is recommended to drink 1-2 litres of Water per day for Good Health, but this also depends on how much one expends/dehydrates. So, at least 1 litre of Water per day is a Good Habit and 1 litre amounts to 8 Glasses of Water. App illustrates the use of `SQLite` database for tracking the user's daily habit of Hydration. This App only demonstrates the behavior of `SQLite` database for the CRUD operations executed, in an intuitive manner for better understanding. As such it has a basic UI that exposes details of what happens when any CRUD Operation is executed, and cannot be used as your daily tracker.
 
 #### Topics learnt/explored
 
@@ -293,7 +293,7 @@ Consists of lessons, tutorial projects and submission projects that teaches the 
 * Although defined in the Rubric that no UI is required, I went ahead and did a simple UI to display only the recent records, to know what is going on in the backend.
 * Explored `Handlers` and `HandlerThreads` to perform database operations in a background thread.
 * [TextAppearanceUtility](/app/src/main/java/com/example/kaushiknsanji/hydrationtrackerdemo/utils/TextAppearanceUtility.java) for decorating `TextViews` using Spannables, for html content in text, and coloring a part of the text.
-* Explored the use of `TextInputLayout` and `TextInputEditText`. 
+* Designed the layout with `TextInputLayout` and `TextInputEditText` to capture User input.
 
 #### Video Preview
 
@@ -310,6 +310,46 @@ Consists of lessons, tutorial projects and submission projects that teaches the 
 ![review](https://user-images.githubusercontent.com/26028981/39418686-64334aaa-4c79-11e8-910f-2d4e5d0b6c92.PNG)
 
 ### 10. Inventory App - [StoreApp](https://github.com/kaushiknsanji/StoreApp)
+
+<image align="right" src="https://github.com/kaushiknsanji/StoreApp/blob/udacity/app/src/main/ic_launcher-web.png" width="25%"/>
+
+![GitHub](https://img.shields.io/github/license/kaushiknsanji/StoreApp)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/kaushiknsanji/StoreApp)  ![GitHub repo size](https://img.shields.io/github/repo-size/kaushiknsanji/StoreApp)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/kaushiknsanji/StoreApp)](https://github.com/kaushiknsanji/StoreApp/releases)  ![GitHub All Releases](https://img.shields.io/github/downloads/kaushiknsanji/StoreApp/total)  ![GitHub stars](https://img.shields.io/github/stars/kaushiknsanji/StoreApp?style=social)  ![GitHub forks](https://img.shields.io/github/forks/kaushiknsanji/StoreApp?style=social)  ![Minimum API level](https://img.shields.io/badge/API-15+-yellow)
+
+**StoreApp** is an Inventory App, that allows a Store to keep track of the inventory of its Products across the listed Suppliers of Products, and record sales information. Allows a Store user to save every information of a Product along with its pictures and Suppliers information with their price and available to sell quantity. It features Product procurement from Suppliers via the supplied Contact information of Suppliers recorded.
+
+#### Topics learnt/explored
+
+* Storing required information in a `SQLite` database.
+* Designing and developing the Database Schema with relationships between Product, Supplier, Selling Price, Inventory, Images, Additional Product information and Supplier Contact Information to enable -
+	* Multiple Seller registration per Product with their own Selling Price, Availability and Contact information.
+	* Multiple Contacts per Seller, supporting different Contact Types like Phone and Email.
+	* Multiple Product Photos.
+	* Additional Attibutes that further defines the Product.
+* Integrating Android’s File storage systems into the database for Images. Images are persisted by saving the Image files' Content URI in the database instead of storing the entire BLOB of the Image.
+* Communicating with and managing the Database through a Content Provider.
+* Communicating with the File Storage through a File Provider for saving and accessing the Images of a Product.
+* Presenting information from Files and SQLite databases to users.
+* Designing layouts with `TextInputLayout` and `TextInputEditText` to capture User input, validating the captured information to display the required error, and updating the database with the information.
+* Creating intents to other apps such as the File Picker App for selecting images and the Image Capture App for taking pictures, using stored information.
+	* Capturing Images is accomplished using `ACTION_IMAGE_CAPTURE` Intent, and processing the Image for storage is done using a custom [ImageStorageUtility](https://github.com/kaushiknsanji/StoreApp/blob/udacity/app/src/main/java/com/example/kaushiknsanji/storeapp/utils/ImageStorageUtility.java) in a Disk thread provided by [AppExecutors](https://github.com/kaushiknsanji/StoreApp/blob/udacity/app/src/main/java/com/example/kaushiknsanji/storeapp/utils/AppExecutors.java).
+	* Selecting Images is accomplished using `ACTION_GET_CONTENT`/`ACTION_OPEN_DOCUMENT` Intent, based on the Android system version.
+* Promoting the separation of concerns using the [MVP Architecture with Content Providers](https://github.com/googlesamples/android-architecture/tree/deprecated-todo-mvp-contentproviders/) along with Repository pattern for Datasource that includes local files and database storage. Dependency injection is accomplished using a static [InjectorUtility](https://github.com/kaushiknsanji/StoreApp/blob/udacity/app/src/main/java/com/example/kaushiknsanji/storeapp/utils/InjectorUtility.java).
+* Designing layouts using `CoordinatorLayout` and `ConstraintLayout`.
+* Designing Item Views using `CardView`.
+* Loading of Images using a custom Headless [Fragment](https://github.com/kaushiknsanji/StoreApp/blob/udacity/app/src/main/java/com/example/kaushiknsanji/storeapp/workers/ImageDownloaderFragment.java) through an [AsyncTaskLoader](https://github.com/kaushiknsanji/StoreApp/blob/udacity/app/src/main/java/com/example/kaushiknsanji/storeapp/workers/ImageDownloader.java) and caching recently loaded images using [BitmapImageCache](https://github.com/kaushiknsanji/StoreApp/blob/udacity/app/src/main/java/com/example/kaushiknsanji/storeapp/cache/BitmapImageCache.java) that internally uses `android.util.LruCache`.
+* Live Debugging using [Stetho](https://facebook.github.io/stetho/) to see and validate the changes following any CRUD operation during the development process, in order to ensure that the operations are working as intended.
+* Presenting Product Attributes information using a `TableLayout` with its data populated dynamically.
+
+#### Sample Screenshots
+
+|Products List|Suppliers List|Sales List|Sample Product Config|
+|---|---|---|---|
+|![productslistportrait](https://user-images.githubusercontent.com/26028981/49726305-b01eca00-fc93-11e8-9ed2-6c4f65d3c5e5.png)|![supplierlist](https://user-images.githubusercontent.com/26028981/49726466-1c99c900-fc94-11e8-854d-add11fdb9b6d.png)|![saleslist](https://user-images.githubusercontent.com/26028981/49726591-62ef2800-fc94-11e8-8c3c-7dd4b52b900a.png)|![addproduct1](https://user-images.githubusercontent.com/26028981/49726337-c0cf4000-fc93-11e8-8f3f-d6ba52109ab9.png)|
+
+#### Review from the Reviewer (Udacity)
+
+![review](https://user-images.githubusercontent.com/26028981/49814663-1c7ef380-fd90-11e8-9984-6bd8395789f6.PNG)
 
 ---
 
